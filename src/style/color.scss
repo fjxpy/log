@@ -1,0 +1,25 @@
+$Primary:#409EFF;
+$Success:#67C23A;
+$Warning:#E6A23C;
+$Danger:#F56C6C;
+$Info:#909399;
+$Dark:#b4b8bc;
+$Primary-Text:#303133;
+$Regular-Text:#606266;
+$Secondary-Text:#909399;
+$Placeholder-Text:#C0C4CC;
+$Border-Base:#DCDFE6;
+$Border-Light:#E4E7ED;
+$Border-Lighter:#EBEEF5;
+$Border-focus:#6b9eee;
+$Border-Extralight:#F2F6FC;
+$Background-A:#000000;
+$Background-B:#FFFFFF;
+$Background-C:Transparent;
+$Background-D:Transparent;
+
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}

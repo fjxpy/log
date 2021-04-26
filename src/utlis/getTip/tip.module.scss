@@ -1,0 +1,24 @@
+@import '~@/style/color.scss';
+.tip{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 200px;
+    height: 45px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    line-height: 45px;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    transition: all;
+    &.info{
+        background-color: $Success;
+    }
+    &.warn{
+        background-color: $Warning;
+    }
+}

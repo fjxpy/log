@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+
+  <!-- built files will be auto injected -->
+  <script>
+
+    const insData = [{ id: 1, parent_id: '', children_len: 2, router_name: 'Main', href: '/main', menu: '首页', type: 'shouye', level: 1, key: '1', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 2, parent_id: '', children_len: 2, router_name: 'Article', href: '/article', menu: '文章管理', type: 'rizhi', level: 1, key: '2', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 3, parent_id: '', children_len: 2, router_name: 'Feeling', href: '/feeling', menu: '说说管理', type: 'shenghuo', level: 1, key: '3', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 4, parent_id: '', children_len: 2, router_name: 'Photo', href: '/photo', menu: '相册管理', type: 'xiangpian', level: 1, key: '4', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 5, parent_id: '', children_len: 2, router_name: 'Message', href: '/message', menu: '留言管理', type: 'liuyan', level: 1, key: '5', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 6, parent_id: '', children_len: 2, router_name: 'System', href: '/system', menu: '系统管理', type: 'xitongguanli', level: 1, key: '6', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 7, parent_id: '1', children_len: 0, router_name: '', href: '', menu: '我的主页', type: 'shouye', level: 2, key: '1001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 8, parent_id: '1', children_len: 0, router_name: '', href: '', menu: '流量统计', type: 'liuchengrizhitongji', level: 2, key: '1002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 9, parent_id: '2', children_len: 0, router_name: 'ArticleList', href: '/articlelist', menu: '文章列表', type: 'ic_batch_default24px', level: 2, key: '2001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 10, parent_id: '2', children_len: 0, router_name: '', href: '/articlelist/add', menu: '新增文章', type: 'rizhi', level: 2, key: '2002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 11, parent_id: '3', children_len: 0, router_name: '', href: '', menu: '说说列表', type: 'ic_batch_default24px', level: 2, key: '3001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 12, parent_id: '3', children_len: 0, router_name: '', href: '', menu: '新增说说', type: 'liuyan', level: 2, key: '3002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 13, parent_id: '4', children_len: 0, router_name: '', href: '', menu: '相册列表', type: 'ic_batch_default24px', level: 2, key: '4001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 14, parent_id: '4', children_len: 0, router_name: '', href: '', menu: '新增相册', type: 'xiangpian', level: 2, key: '4002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 15, parent_id: '5', children_len: 0, router_name: '', href: '', menu: '留言列表', type: 'ic_batch_default24px', level: 2, key: '5001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 16, parent_id: '5', children_len: 0, router_name: '', href: '', menu: '新增留言', type: 'liuyan', level: 2, key: '5002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 17, parent_id: '6', children_len: 0, router_name: '', href: '', menu: '用户管理', type: 'yonghuguanli', level: 2, key: '6001', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }, { id: 18, parent_id: '6', children_len: 0, router_name: '', href: '', menu: '系统配置', type: 'xitongpeizhi', level: 2, key: '6002', when_logged: '2021-03-25T14:04:49.000Z', when_operated: '2021-03-25T14:05:49.000Z', when_cancelled: null }]
+  </script>
+</body>
+
+</html>
